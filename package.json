@@ -4,7 +4,7 @@
   "description": "Monitor specific website URLs and receive Telegram notifications whenever changes occur",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node -r dotenv/config index.js",
     "test": "",
     "prepare": "husky install"
   },

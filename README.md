@@ -52,7 +52,7 @@ npm start
 ## Running as a docker (from Docker Hub)
 
 ```
-docker run -d -e BOT_TOKEN=your_bot_token -e MONITOR_URL=http://example.com -e CHAT_ID=your_chat_id niklasfrick/pageguardian
+docker run -d --env BOT_TOKEN="your_bot_token" --env MONITOR_URL="http://example.com" --env CHAT_ID="your_chat_id" niklasfrick/pageguardian
 
 ```
 
@@ -68,6 +68,6 @@ docker build -t pageguardian .
 - Run the docker in background with passing in Variables
 
 ```
-docker run -d -e BOT_TOKEN=your_bot_token -e MONITOR_URL=http://example.com -e CHAT_ID=your_chat_id pageguardian
+docker run -d --env BOT_TOKEN="your_bot_token" --env MONITOR_URL="http://example.com" --env CHAT_ID="your_chat_id" pageguardian
 
 ```

@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the index.js
-COPY index.js .
+COPY index.js ./
 
 # Define the command to run your application
-CMD ["node", "index.js"]
+CMD npm start
