@@ -16,6 +16,7 @@ This project uses the following environment variables:
 
 - Install [Node.js](https://nodejs.org/en/) version 20.6.1
 - Create a Telegram Bot, e.g. using this: [Tutorial](https://www.directual.com/lesson-library/how-to-create-a-telegram-bot)
+- Install [Docker](https://www.docker.com/) (if run in a container)
 
 # Getting started
 
