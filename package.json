@@ -4,7 +4,8 @@
   "description": "Monitor specific website URLs and receive Telegram notifications whenever changes occur",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm test",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/niklasfrick/pageguardian/issues"
   },
-  "homepage": "https://github.com/niklasfrick/pageguardian#readme"
+  "homepage": "https://github.com/niklasfrick/pageguardian#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "husky": "^8.0.0"
+  }
 }
