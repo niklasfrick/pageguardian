@@ -25,6 +25,8 @@ This project uses the following environment variables:
 git clone  https://github.com/niklasfrick/pageguardian.git
 ```
 
+## Running locally
+
 - Create a .env file and populate with your information
 
 ```
@@ -44,4 +46,20 @@ npm install
 
 ```
 npm start
+```
+
+## Running as a docker (local build)
+
+- Build the docker image
+
+```
+cd pageguardian
+docker build -t pageguardian .
+```
+
+- Run the docker in background with passing in Variables
+
+```
+docker run -d -e BOT_TOKEN=your_bot_token -e MONITOR_URL=http://example.com -e CHAT_ID=your_chat_id pageguardian
+
 ```

@@ -66,6 +66,6 @@ async function checkWebsiteForChanges() {
 
 // Run the fetchInitialContent function to populate initialContent, then start checking for changes
 fetchInitialContent().then(() => {
-  // Run the checkWebsiteForChanges function periodically (e.g., every 15 minutes)
-  setInterval(checkWebsiteForChanges, 900000); // 15 minutes in milliseconds
+  // Run the checkWebsiteForChanges function periodically (e.g., every 5 minutes)
+  setInterval(checkWebsiteForChanges, 300000); // 5 minutes in milliseconds
 });
