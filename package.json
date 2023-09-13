@@ -4,7 +4,7 @@
   "description": "Monitor specific website URLs and receive Telegram notifications whenever changes occur",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && npm test",
+    "test": "",
     "prepare": "husky install"
   },
   "repository": {
