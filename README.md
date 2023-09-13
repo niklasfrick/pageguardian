@@ -49,6 +49,13 @@ npm install
 npm start
 ```
 
+## Running as a docker (from Docker Hub)
+
+```
+docker run -d -e BOT_TOKEN=your_bot_token -e MONITOR_URL=http://example.com -e CHAT_ID=your_chat_id niklasfrick/pageguardian
+
+```
+
 ## Running as a docker (local build)
 
 - Build the docker image
